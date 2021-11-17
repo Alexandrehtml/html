@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face 
+
+{
+    font-family:'ex';
+    src:url('projeto1/fontes/idroid.otf') format('truetype');
+    font-size: 16px;
+     font-weight: normal;
+}
+
+*{
+  line-height: 1.5em;
+  
+}
+
+
+
+
+
+
+
+
+body{
+  font-size: 1.2em;
+  
+
+}
+header   p{
+  display: inline-block;
+  margin: 5px;
+  padding: 2px;
+  text-align: left;
+  width: 200px;
+  
+
+
+}
+.botaoesc:hover
+{
+  background-color: blue;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(46, 45, 45);
+  border-radius: 5px;
+  width: 200px;
+  display: inline-block;
+  padding: 2px;
+  margin: 5px;
+  transition-duration: 1s;
+  text-align: left;
+  
+  
+}
+
+.botao
+{
+  background-color: blue;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 3px rgb(46, 45, 45);
+  border-radius: 5px;
+  width: 200px;
+  display: inline-block;
+  padding: 2px;
+  margin: 15px; }
+
+  .link{
+    background-color:rgb(239, 239, 243);
+    color:black;
+    padding: 6px;
+    text-align: center;
+
+  }
+  .link::after
+  {
+    content:'☎️' ;
+  }
+  
+    .painel{
+      background-color:#918f8f;
+      border-radius: 15px;
+      box-shadow: 3px 3px 3px rgb(46, 45, 45);
+      padding: 2px;
+      width: 80%;
+      margin: auto;
+      text-align: justify;
+    }
+
+    .titulo
+{
+    color: #ffffff;
+    background-color: #696868;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(46, 45, 45);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 10px 0px 10px;
+    min-width: 330;}
+  
+
+header{
+  background-color:#918f8f;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(46, 45, 45);
+  padding: 2px;
+  min-width: 340px;
+  
+}
+
+header  h1  {
+  color: #ffffff;
+  background-color: #696868;
+  text-align: center;
+  box-shadow: 3px 3px 3px rgb(46, 45, 45);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 10px 0px 10px;
+
+}
+
+header h2  {
+    color: #ffffff;
+    background-color: #696868;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(46, 45, 45);
+    border-radius: 10px ;
+    margin: 20px 10px 0px 10px
+  }
+  main
+  {
+    color: blanchedalmond;
+    background-color:#0D0D0D;
+    border-radius: 10px ;
+    padding: 3px 10px 3px 10px ;
+    text-indent: 30px;
+  }
+
+  main h2
+  {
+    
+    box-shadow: 3px 3px 3px black ;
+    background-image: linear-gradient(to right, #696868 , transparent);
+
+  }
+ 
+footer
+{
+  background-color: rgb(157, 157, 236);
+  color: #0D0D0D;
+  box-shadow: 3px 3px 3px rgb(46, 45, 45);
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+
+
+}
+
+.video
+{
+  
+  width: 60%;
+  padding-bottom: 33%;
+  position: relative;
+  margin: auto;
+}
+
+.video > iframe
+{position: absolute;
+  width: 100%;
+  height: 100%;
+   
+}
+  
+  
+}
+
