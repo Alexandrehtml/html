@@ -2,10 +2,11 @@
 @charset "UTF-8";
 
 
- var{
-     --anun1: content[ 'u'];
+body{
+    background-image: url(fundmadeira.png);
+}
      
- }
+ 
 
 div.ti-prod {
     
