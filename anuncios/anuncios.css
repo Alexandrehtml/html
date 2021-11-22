@@ -1,6 +1,9 @@
 
 @charset "UTF-8";
 
+a:link {
+    text-decoration: none;}
+
 
 body{
     background-image: url(fundmadeira.png);
@@ -24,7 +27,8 @@ div.ti-prod {
 }
 
 .botao{
-    background-color:  #BB1EC5 ;
+    background-image: url(fundmadeira.png) ;
+    background-position: center;
     color: rgb(255, 255, 255);
     display: inline-block;
     border-radius: 15px;
@@ -34,7 +38,9 @@ div.ti-prod {
     margin: auto;
     text-align: center;
     font-size: 1.5em;
-    margin-right: 20px;}
+    margin-right: 20px;
+    font-weight: bolder;
+}
 
 img.naveg
 {
