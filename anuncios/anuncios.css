@@ -188,8 +188,16 @@ div.fotter{
 } 
 
 
-/* Checkbox Hack */
+/* inicio da tag que faz aparecer a div */
 #toggle-1 {
+    display:none;
+ }
+
+#toggle-2 {
+    display:none;
+ }
+
+ #toggle-3 {
     display:none;
  }
  
@@ -201,13 +209,29 @@ div.fotter{
    padding: 5px;
  }
  
- /* CSS padrão da div */
+
  #mostra {
     display:none;
  }
  
- /* CSS quando o checkbox está marcado */
+ #mostra1 {
+    display:none;
+ }
+
+ #mostra2 {
+    display:none;
+ }
+
+ 
  #toggle-1:checked ~ #mostra {
     display:block;
  }
 
+ #toggle-2:checked ~ #mostra1 {
+    display:block;
+ }
+
+ #toggle-3:checked ~ #mostra2 {
+    display:block;
+ }
+/* */
