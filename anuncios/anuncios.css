@@ -134,6 +134,7 @@ div.menusup{
     grid-area: a;
     text-align: center;
     padding: 8px;
+    position: relative;
     
 
 }
@@ -163,5 +164,26 @@ div.fotter{
     border-radius: 10px;
     grid-area: d;
 
+}
+
+.suspenso1{
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position:absolute;
+    width: 70%;
+    text-align: left;
+    left: 14%;
+    top: 35%px;
+    display: none;
+
+    
+
+}
+
+#we:hover + .suspenso1 {
+    display: block;
+    transition-duration: 25s;
+    
 }
 
