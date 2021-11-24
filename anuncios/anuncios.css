@@ -165,10 +165,7 @@ div.fotter{
     grid-area: d;
 
 }
-/*
 
-  ex relativo ao aparecimento
-  de uma div quando se passa o mouse por cima
 
 
 .suspenso1{
@@ -179,19 +176,16 @@ div.fotter{
     width: 100%;
     text-align: left;
     margin-top: 6px;
-   
+   display: none;
     border-radius: 10px;
     padding: 5px;
 }
-
-  ex relativo ao aparecimento
-  de uma div quando se passa o mouse por cima
-
-#we:hover + .suspenso1 {
+  
+#we:checked + .suspenso1 {
     display: block;
     transition-duration: 25s;
     
-} */
+} 
 
 
 /* Checkbox Hack */
