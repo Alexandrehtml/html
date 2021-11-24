@@ -170,12 +170,13 @@ div.fotter{
     font-size: 1.3em;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    position:absolute;
-    width: 70%;
+    display: block;
+    width: 100%;
     text-align: left;
-    left: 14%;
-    top: 35%px;
-    display: none;
+    margin-top: 6px;
+   
+    border-radius: 10px;
+    padding: 5px;
 
     
 
@@ -186,4 +187,28 @@ div.fotter{
     transition-duration: 25s;
     
 }
+
+
+/* Checkbox Hack */
+#toggle-1 {
+    display:none;
+ }
+ 
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px;
+ }
+ 
+ /* CSS padrão da div */
+ #mostra {
+    display:none;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+ #toggle-1:checked ~ #mostra {
+    display:block;
+ }
 
