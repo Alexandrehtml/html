@@ -7,7 +7,8 @@ a:visited {
 }
 
 a:link{
-    color: rgb(255, 255, 255)
+    text-decoration: none ;
+    
 }
 
 
@@ -80,13 +81,26 @@ img{
 
 .what{
     background-image: url(../zap.png); 
-    background-size: 30px; width: 30px; height: 30px;
+    background-size: 30px; 
+    width: 30px;
+    height: 30px;
     margin: auto;
     margin-right: 15px;
     display: inline-block;
     position: relative;
     top: 10px;
+}
     
+    .what1{
+        background-image: url(../zap.png); 
+        background-size: 80px; 
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        margin-right: 15px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
     
     
 
@@ -200,7 +214,7 @@ div.fotter{
  #toggle-3 {
     display:none;
  }
- 
+
  label { 
    -webkit-appearance: push-button;
    -moz-appearance: button; 
