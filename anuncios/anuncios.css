@@ -18,7 +18,9 @@ body{
     padding-bottom: 5px;
     height: auto;
 }
-     
+
+
+
  
 
 div.ti-prod {
@@ -86,7 +88,7 @@ img{
     width: 250px;
     height: 250px;
     border: 4px solid rgb(100, 98, 98);
-    margin: 10px;
+    margin: 50px;
     display:inline-block;
     box-shadow: 3px 3px 3px rgb(36, 35, 35);
 }
