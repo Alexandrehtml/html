@@ -16,7 +16,7 @@ a:link{
 body{
     background-image: url(fundmadeira.png);
     padding-bottom: 5px;
-    height: auto;
+    
 }
 
 
@@ -191,6 +191,25 @@ div.fotter{
     margin-left: 3px;
     border-radius: 10px;
     grid-area: d;
+
+}
+.quadprodutos{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.precoproduto{
+    width: 250px;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+    background-color: blanchedalmond;
+    margin: -50px;
+    margin-left: 53px;
+    margin-bottom: 60px;
+    
 
 }
 
