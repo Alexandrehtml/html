@@ -150,7 +150,7 @@ div.fundo{
    margin: auto;
    gap: 2px;
    display: grid;
-   grid-template-columns: 200px auto;
+   grid-template-columns: 250px auto;
    grid-template-areas: "a a" "b c " "b c" 
    "d d"
    
@@ -161,7 +161,8 @@ div.menucanto{
     box-shadow: 3px 3px 3px rgb(68, 67, 67);
     margin-left: 3px;
     border-radius: 10px;
-    height: 490px;
+    
+    height: 590px;
     display: flex;
     
     grid-area: b;
